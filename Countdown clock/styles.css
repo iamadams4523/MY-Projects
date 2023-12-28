@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.main-cont {
+  min-width: 30rem;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.word-cont {
+  max-width: 20rem;
+}
+.word-cont div h2 {
+  color: blue;
+  font-size: 2rem;
+}
+.word-cont div p {
+  color: white;
+  font-size: 0.9rem;
+}
+.year-cont {
+  display: grid;
+  grid-template-rows: repeat(4, 8rem);
+  grid-gap: 1rem;
+}
+.comp {
+  border: 1px solid black;
+  padding: 2px 4px;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.comp h3 {
+  font-size: 1.5rem;
+}
+.comp h4 {
+  font-size: 1rem;
+}

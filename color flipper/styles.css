@@ -1,0 +1,57 @@
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.main-cont {
+  min-width: 40rem;
+  min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 14px;
+  font-weight: 300;
+  color: gray;
+  margin-bottom: -1rem;
+}
+.header h4:hover {
+  cursor: pointer;
+  color: aqua;
+}
+.flipper-cont {
+  min-height: 15rem;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flipper {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 25rem;
+  border-radius: 8px;
+}
+.flipper h1 {
+  color: white;
+}
+.color {
+  color: aqua;
+}
+.btn {
+  margin-top: 2rem;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+.btn:hover {
+  border: 0.9px solid aqua;
+  transform: scale(1.1);
+  transition: all 0.3s ease-out;
+}
